@@ -1,0 +1,10 @@
+.favouriteColour {
+    height: 50px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: #FF80DD;
+}
+
+#centre {
+    text-align: center;
+}
