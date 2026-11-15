@@ -1,3 +1,12 @@
+body {
+    background: linear-gradient(30deg, #FFAA6A 0%, #FFCC8A 50%, #FFFFFF 100%);
+    min-height: 100vh;
+}
+
+.font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .favouriteColour {
     height: 50px;
     width: 600px;
