@@ -17,3 +17,22 @@ body {
 #centre {
     text-align: center;
 }
+
+#header {
+    max-width: 100vw;
+    min-width: 500px;
+    max-height: 20px;
+    min-height: 20px;
+    display: inline-block;
+    gap: 50px;
+    padding: 10px;
+    background:#DDDDDD;
+    border-radius: 6px;
+    border-color: #BBBBBB;
+    display: flex;
+    flex-direction: row;
+}
+
+#hugeletters {
+    font-size: 80px;
+}
