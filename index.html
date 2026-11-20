@@ -5,7 +5,7 @@
     <title>Yoonha's Personal Website</title>
     <link rel="stylesheet" href="personalWebsite.css">
 </head>
-<body>   
+<body>
     <header>
         <h1 class="font" id="hugeletters">Hello there!</h1>        
         <div class="font" id="header">
@@ -114,37 +114,38 @@
         </ul>
 
         <h2 class="font">Random facts about me</h2>
-        <ul class="font">
-            <li>
-                <b>I like gradients so much (especially the one that changes colour and appears to be moving).</b> <br>
-                But for some reason I heard that it could be a sign that it's an AI project... <br>
-                Not sure how exactly that works but if that deflates my hours I shouldn't do that, <i><b>right?</i></b>
-            </li><br><li>
-                I also like those things where content appears when you scroll down, but again, I'm not risking AI deflation.
-            </li><br><li>
-                I don't know why but I have adversion to learning game engine even though it's literally in the "I should learn" section. <br>
-                I'd much rather build it using pure HTML + CSS + JS. <br>
-                But looking at the bright side, that means I can play it offline. <br>
-                Maybe because my ultimate goal isn't a gamedev...
-            </li><br><li>
-                I should be studying for my electricity test but I like grinding Hack Club YSWS programmes. It feels like addiction at this point. <br>
-                I even keep a YSWS plan and wishlist for prizes as well as how many hours I should spend in each YSWS. <br>
-                I mean, like, who doesn't want iPads and MacBooks? It's time I need an upgrade to a 16GB RAM computer. <br>
-                I even considered a 3-month speedrun to study for the electricity test. The motion failed because that sounded impossible. <br>
-                But it could be that my ideas for YSWS projects runs out faster. Eh, whichever comes first, I guess.
-            </li><br><li>
-                I have this weird dream where I become an angel investor in a friend's start-up on video games. <br>
-                Maybe I should drop $100K in their Series A seeding round. <br>
-                That is, if I even have that much money, loh...
-            </li><br><li>
-                When I read a privacy policy all I look for is "How long my data is retained", "Can I withdraw consent", "Is it in European Economic Area", and "Disclousure to 3rd parties" <br>
-                I know, I know, I should be reading the whole thing... but like, it's longer than the IKEA assembly manual... 
-            </li><br><li>
-                No bias but I find Europe-based companies to be more customer-friendly in personal data than US-based companies. <br>
-                If I have two equally competent options, then I will go with the European company. <br>
-                Which <i>should</i> explain the "European Economic Area" part.
-            </li>
-        </ul>
+        <div class="font" id="factdisplay">
+            <p class="font" id="factfield"></p>
+        </div>
+        <button class="font" id="generateFact" onclick="printFact()">New Fact</button>
     </section>  
+
+    <script src="script.js"></script>
+    <script>
+        const randomFact = [
+            "I like gradients so much (especially the one that changes colour and appears to be moving)<br><br>But for some reason I heard that it could be a sign that it's an AI project...",
+            "I live in the fear that my projects get deflated all the time.",
+            "I also like those things where content appears when you scroll down, but I fear that it may result in AI deflation.",
+            "I don't know why but I have an adversion to learning game engine even though it's literally in the \"I should learn\" section. I'd much rather build it using pure HTML + CSS + JS. <br><br>Perhaps that's because my ultimate goal isn't a gamedev...",
+            "I should be studying for my electricity test but I like grinding Hack Club YSWS programmes. It feels like addiction at this point.",
+            "I have a spreadsheet which lists project ideas and YSWS opportunities that comes with a wish list.",
+            "I wish I can win iPad and 16GB RAM computer but I can't score enough hours each time :(",
+            "I once considered a 3-month speedrun to prepare for tests and maximise YSWS participation. The motion failed because that sounded impossible.",
+            "I often wonder how others don't run out of YSWS project ideas.",
+            "I have this weird dream where I become an angel investor in a friend's start-up on video games.<br><br>If she actually starts a start-up maybe I should drop $100K in her Series A seeding round. <br><br>That is, if I even have that much money, loh...",
+            "When I read a Privacy Policy I only check things like  <ul><li>\"How long my data is retained\"</li><li>\"Can I withdraw consent\"</li><li>\"Is it in European Economic Area\"</li><li>\"Disclousure to 3rd parties\"</li></ul>I know, I know, I should be reading the whole thing...",
+            "When it comes to privacy, I feel that European companies are more consumer-friendly than U.S. companies. Probably because of GDPR.",
+        ]
+
+        const textbox = document.getElementById("factfield");
+
+        function printFact() {
+            let value = Math.round(Math.random() * randomFact.length);
+            textbox.innerHTML = randomFact[value];
+        }
+
+        printFact();
+    </script>
+
 </body>
 </html>
