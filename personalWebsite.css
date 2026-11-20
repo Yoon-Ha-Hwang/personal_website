@@ -36,3 +36,25 @@ body {
 #hugeletters {
     font-size: 80px;
 }
+
+#factdisplay {
+    background: linear-gradient(#FFFFFF);
+    
+    max-width: 50vw;
+    min-width: 50vw;
+    max-height: 30vh;
+    min-height: 30vh;
+    border-radius: 10px;
+}
+
+#factfield {
+    font-size: 16px;
+}
+
+#generatefact {
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 30px;
+    min-height: 30px;
+    text-align: center;
+}
