@@ -152,7 +152,7 @@
             let frame = Math.floor(ms / 40); //25 FPS
             let headpage = document.querySelector("#factdisplay");
 
-            // 1 -> 2 -> 3 ... -> 11 -> 12 -> 11 -> ... 3 -> 2 -> 1 (25 frames in total)
+            // 0 -> 1 -> 2 ... -> 11 -> 12 -> 11 -> ... 2 -> 1 -> 0 (25 frames in total)
             if(frame == 0) {
                 factdisplay.style.color = "var(--zero)";
             } else if(frame == 1) {
