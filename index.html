@@ -132,18 +132,19 @@
             "I wish I can win iPad and 16GB RAM computer but I can't score enough hours each time :(",
             "I once considered a 3-month speedrun to prepare for tests and maximise YSWS participation. The motion failed because that sounded impossible.",
             "I often wonder how others don't run out of YSWS project ideas.",
-            "I have this weird dream where I become an angel investor in a friend's start-up on video games.<br><br>If she actually starts a start-up maybe I should drop $100K in her Series A seeding round. <br><br>That is, if I even have that much money, loh...",
+            "I have this weird dream where I become an angel investor in a friend's start-up on video games.<br><br>If she actually starts a start-up maybe I should drop $100K in her Series A seed round. <br><br>That is, if I even have that much money, loh...",
             "When I read a Privacy Policy I only check things like  <ul><li>\"How long my data is retained\"</li><li>\"Can I withdraw consent\"</li><li>\"Is it in European Economic Area\"</li><li>\"Disclousure to 3rd parties\"</li></ul>I know, I know, I should be reading the whole thing...",
             "When it comes to privacy, I feel that European companies are more consumer-friendly than U.S. companies. Probably because of GDPR.",
+            "Just a thought, but if cats have nine lives and each life is worth 15 years, don't they live longer than humans since that's 135 years in total?"
         ]
 
         const textbox = document.getElementById("factfield");
 
         function printFact() {
-            let value = Math.round(Math.random() * randomFact.length);
+            let value = Math.floor(Math.random() * randomFact.length);
             textbox.innerHTML = randomFact[value];
         }
-        
+
         printFact();
     </script>
 </body>
