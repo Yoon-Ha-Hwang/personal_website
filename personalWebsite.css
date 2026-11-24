@@ -44,21 +44,25 @@ body {
     min-height: 30vh;
     border-radius: 10px;
     background-image: var(--zero);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     /* Colours for "generate fact" section */
-    --zero: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 20%, #FF80DD 100%);
-    --one: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 25%, #FF80DD 100%);
-    --two: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 30%, #FF80DD 100%);
-    --three: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 35%, #FF80DD 100%);
-    --four: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 40%, #FF80DD 100%);
-    --five: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 45%, #FF80DD 100%);
+    --zero: linear-gradient(300deg, #FFB0F0 0%, #FF80DD 100%);
+    --one: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 10%, #FF80DD 100%);
+    --two: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 18%, #FF80DD 100%);
+    --three: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 26%, #FF80DD 100%);
+    --four: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 34%, #FF80DD 100%);
+    --five: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 42%, #FF80DD 100%);
     --six: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 50%, #FF80DD 100%);
-    --seven: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 55%, #FF80DD 100%);
-    --eight: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 60%, #FF80DD 100%);
-    --nine: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 65%, #FF80DD 100%);
-    --ten: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 70%, #FF80DD 100%);
-    --eleven: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 75%, #FF80DD 100%);
-    --twelve: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 80%, #FF80DD 100%);
+    --seven: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 58%, #FF80DD 100%);
+    --eight: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 66%, #FF80DD 100%);
+    --nine: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 74%, #FF80DD 100%);
+    --ten: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 82%, #FF80DD 100%);
+    --eleven: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 90%, #FF80DD 100%);
+    --twelve: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 100%);
 }
 
 #factfield {
