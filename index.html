@@ -143,68 +143,8 @@
             let value = Math.round(Math.random() * randomFact.length);
             textbox.innerHTML = randomFact[value];
         }
-
+        
         printFact();
-
-        // Code segment from NextChapter
-        function updateTime() {
-            let ms = new Date().getMilliseconds();
-            let frame = Math.floor(ms / 40); //25 FPS
-            let headpage = document.querySelector("#factdisplay");
-
-            // 0 -> 1 -> 2 ... -> 11 -> 12 -> 11 -> ... 2 -> 1 -> 0 (25 frames in total)
-            if(frame == 0) {
-                factdisplay.style.color = "var(--zero)";
-            } else if(frame == 1) {
-                factdisplay.style.color = "var(--one)";
-            } else if(frame == 2){
-                factdisplay.style.color = "var(--two)";
-            } else if(frame == 3) {
-                factdisplay.style.color = "var(--three)";
-            } else if(frame == 4) {
-                factdisplay.style.color = "var(--four)";
-            } else if(frame == 5) {
-                factdisplay.style.color = "var(--five)";
-            } else if(frame == 6) {
-                factdisplay.style.color = "var(--six)";
-            } else if(frame == 7) {
-                factdisplay.style.color = "var(--seven)";
-            } else if(frame == 8) {
-                factdisplay.style.color = "var(--eight)";
-            } else if(frame == 9) {
-                factdisplay.style.color = "var(--nine)";
-            } else if(frame == 10) {
-                factdisplay.style.color = "var(--ten)";
-            } else if(frame == 11) {
-                factdisplay.style.color = "var(--eleven)";
-            } else if(frame == 12) {
-                factdisplay.style.color = "var(--twelve)";
-            } else if(frame == 13) {
-                factdisplay.style.color = "var(--twelve)";
-            } else if(frame == 14) {
-                factdisplay.style.color = "var(--eleven)";
-            } else if(frame == 15) {
-                factdisplay.style.color = "var(--ten)";
-            } else if(frame == 16) {
-                factdisplay.style.color = "var(--nine)";
-            } else if(frame == 17) {
-                factdisplay.style.color = "var(--eight)";
-            } else if(frame == 18) {
-                factdisplay.style.color = "var(--seven)";
-            } else if(frame == 19) {
-                factdisplay.style.color = "var(--six)";
-            } else if(frame == 20) {
-                factdisplay.style.color = "var(--five)";
-            } else if(frame == 21) {
-                factdisplay.style.color = "var(--four)";
-            } else if(frame == 22) {
-                factdisplay.style.color = "var(--three)";
-            } else if(frame == 23) {
-                factdisplay.style.color = "var(--two)";
-            } else if(frame == 24) {
-                factdisplay.style.color = "var(--one)";
-            }
-        }
     </script>
 </body>
 </html>
