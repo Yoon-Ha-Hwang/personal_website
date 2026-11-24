@@ -46,19 +46,19 @@ body {
     background-image: var(--zero);
 
     /* Colours for "generate fact" section */
-    --zero: linear-gradient(45deg, #FFA0FF 0%, #FF88FF 50%, #FFA0FF 100%);
-    --one: linear-gradient(45deg, #FD9DFD 0%, #FD86FD 50%, #FD9DFD 100%);
-    --two: linear-gradient(45deg, #FB9BFB 0%, #FB84FB 50%, #FB9BFB 100%);
-    --three: linear-gradient(45deg, #F999F9 0%, #F982F9 50%, #F999F9 100%);
-    --four: linear-gradient(45deg, #F797F7 0%, #F780F7 50%, #F797F7 100%);
-    --five: linear-gradient(45deg, #F595F5 0%, #F57DF5 50%, #F595F5 100%);
-    --six: linear-gradient(45deg, #F393F3 0%, #F37BF3 50%, #F393F3 100%);
-    --seven: linear-gradient(45deg, #F191F1 0%, #F179F1 50%, #F191F1 100%);
-    --eight: linear-gradient(45deg, #EF8FEF 0%, #EF77EF 50%, #EF8FEF 100%);
-    --nine: linear-gradient(45deg, #ED8DED 0%, #ED75ED 50%, #ED8DED 100%);
-    --ten: linear-gradient(45deg, #EB8BEB 0%, #EB73EB 50%, #EB8BEB 100%);
-    --eleven: linear-gradient(45deg, #E989E9 0%, #E971E9 50%, #E989E9 100%);
-    --twelve: linear-gradient(45deg, #E787E7 0%, #E76FE7 50%, #E787E7 100%);
+    --zero: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 20%, #FF80DD 100%);
+    --one: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 25%, #FF80DD 100%);
+    --two: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 30%, #FF80DD 100%);
+    --three: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 35%, #FF80DD 100%);
+    --four: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 40%, #FF80DD 100%);
+    --five: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 45%, #FF80DD 100%);
+    --six: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 50%, #FF80DD 100%);
+    --seven: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 55%, #FF80DD 100%);
+    --eight: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 60%, #FF80DD 100%);
+    --nine: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 65%, #FF80DD 100%);
+    --ten: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 70%, #FF80DD 100%);
+    --eleven: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 75%, #FF80DD 100%);
+    --twelve: linear-gradient(300deg, #FF80DD 0%, #FFB0F0 80%, #FF80DD 100%);
 }
 
 #factfield {
