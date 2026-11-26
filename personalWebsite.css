@@ -1,6 +1,21 @@
 body {
-    background: linear-gradient(30deg, #FFAA6A 0%, #FFCC8A 50%, #FFFFFF 100%);
+    background-image: var(--zero);
     min-height: 100vh;
+
+    /* Colours for the background */
+    --zero: linear-gradient(30deg, #D0C070 0%,#FFFFFF 100%);
+    --one: linear-gradient(30deg, #D4C474 0%,#FFFFFF 100%);
+    --two: linear-gradient(30deg, #D8C878 0%,#FFFFFF 100%);
+    --three: linear-gradient(30deg, #DCCC7C 0%,#FFFFFF 100%);
+    --four: linear-gradient(30deg, #E0D080 0%,#FFFFFF 100%);
+    --five: linear-gradient(30deg, #E4D484 0%,#FFFFFF 100%);
+    --six: linear-gradient(30deg, #E8D888 0%,#FFFFFF 100%);
+    --seven: linear-gradient(30deg, #ECDC8C 0%,#FFFFFF 100%);
+    --eight: linear-gradient(30deg, #F0E090 0%,#FFFFFF 100%);
+    --nine: linear-gradient(30deg, #F4E494 0%,#FFFFFF 100%);
+    --ten: linear-gradient(30deg, #F8E898 0%,#FFFFFF 100%);
+    --eleven: linear-gradient(30deg, #FCEC9C 0%,#FFFFFF 100%);
+    --twelve: linear-gradient(30deg, #FFF0A0 0%, #FFFFFF 100%);
 }
 
 .font {
