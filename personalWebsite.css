@@ -41,11 +41,38 @@ body {
     display: inline-block;
     gap: 50px;
     padding: 10px;
-    background:#DDDDDD;
+    background-image: var(--zero);
     border-radius: 6px;
-    border-color: #BBBBBB;
     display: flex;
     flex-direction: row;
+
+    /* Colours for the header */
+    --green: #90FF77;
+    --zero: linear-gradient(90deg, var(--green) 5%, #FFFFFF 6%);
+    --one: linear-gradient(90deg, var(--green) 10%, #FFFFFF 11%);
+    --two: linear-gradient(90deg, #FFFFFF 4%, var(--green) 5%, var(--green) 15%, #FFFFFF 16%);
+    --three: linear-gradient(90deg, #FFFFFF 9%, var(--green) 10%, var(--green) 20%, #FFFFFF 21%);
+    --four: linear-gradient(90deg, #FFFFFF 14%, var(--green) 15%, var(--green) 25%, #FFFFFF 26%);
+    --five: linear-gradient(90deg, #FFFFFF 19%, var(--green) 20%, var(--green) 30%, #FFFFFF 31%);
+    --six: linear-gradient(90deg, #FFFFFF 24%, var(--green) 25%, var(--green) 35%, #FFFFFF 36%);
+    --seven: linear-gradient(90deg, #FFFFFF 29%, var(--green) 30%, var(--green) 40%, #FFFFFF 41%);
+    --eight: linear-gradient(90deg, #FFFFFF 34%, var(--green) 35%, var(--green) 45%, #FFFFFF 46%);
+    --nine: linear-gradient(90deg, #FFFFFF 39%, var(--green) 40%, var(--green) 50%, #FFFFFF 51%);
+    --ten: linear-gradient(90deg, #FFFFFF 44%, var(--green) 45%, var(--green) 55%, #FFFFFF 56%);
+    --eleven: linear-gradient(90deg, #FFFFFF 49%, var(--green) 50%, var(--green) 60%, #FFFFFF 61%);
+    --twelve: linear-gradient(90deg, #FFFFFF 54%, var(--green) 55%, var(--green) 65%, #FFFFFF 66%);
+    --thirteen: linear-gradient(90deg, #FFFFFF 59%, var(--green) 60%, var(--green) 70%, #FFFFFF 71%);
+    --fourteen: linear-gradient(90deg, #FFFFFF 64%, var(--green) 65%, var(--green) 75%, #FFFFFF 76%);;
+    --fifteen: linear-gradient(90deg, #FFFFFF 69%, var(--green) 70%, var(--green) 80%, #FFFFFF 81%);
+    --sixteen: linear-gradient(90deg, #FFFFFF 74%, var(--green) 75%, var(--green) 85%, #FFFFFF 86%);
+    --seventeen: linear-gradient(90deg, #FFFFFF 79%, var(--green) 80%, var(--green) 90%, #FFFFFF 91%);
+    --eightteen: linear-gradient(90deg, #FFFFFF 84%, var(--green) 85%, var(--green) 95%, #FFFFFF 96%);
+    --nineteen: linear-gradient(90deg, #FFFFFF 89%, var(--green) 90%);
+    --twenty: linear-gradient(90deg, #FFFFFF 94%, var(--green) 95%);
+    --twentyone: linear-gradient(90deg, #FFFFFF);
+    --twentytwo: linear-gradient(90deg, #FFFFFF);
+    --twentythree: linear-gradient(90deg, #FFFFFF);
+    --twentyfour: linear-gradient(90deg, #FFFFFF);
 }
 
 #hugeletters {
@@ -90,4 +117,21 @@ body {
     max-height: 30px;
     min-height: 30px;
     text-align: center;
+}
+
+.lineardisplay {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectholder {
+    margin: 10px;
+    display: flex;
+    flex: 1;
+    max-width: 40vw;
+    min-width: 40vw;
+    flex-direction: column;
+    background: radial-gradient(circle, #FFFFFFFF 50%, #FFFFFF44 100%);
+    border-color: #FFFFFFFF;
+    border-radius: 10px;
 }
